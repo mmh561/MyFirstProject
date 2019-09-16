@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2019-07-16T02:41:34Z" finished-at="2019-07-16T02:41:34Z">
+  <suite name="Default suite" duration-ms="8699" started-at="2019-09-15T18:54:36Z" finished-at="2019-09-15T18:54:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2019-07-16T02:41:34Z" finished-at="2019-07-16T02:41:34Z">
-      <class name="com.att.md.MyFirstProject.Practice">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.att.md.MyFirstProject.Practice@7f9a81e8]" name="test" duration-ms="19" started-at="2019-07-16T02:41:34Z" finished-at="2019-07-16T02:41:34Z">
+    <test name="Default test" duration-ms="8699" started-at="2019-09-15T18:54:36Z" finished-at="2019-09-15T18:54:45Z">
+      <class name="com.att.md.TestCase.TestLogInPageObject">
+        <test-method status="PASS" signature="intitTest()[pri:0, instance:com.att.md.TestCase.TestLogInPageObject@26653222]" name="intitTest" is-config="true" duration-ms="6728" started-at="2019-09-15T18:54:36Z" finished-at="2019-09-15T18:54:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.att.md.MyFirstProject.Practice -->
+        </test-method> <!-- intitTest -->
+        <test-method status="PASS" signature="validateLogInUsingValidCredentials()[pri:0, instance:com.att.md.TestCase.TestLogInPageObject@26653222]" name="validateLogInUsingValidCredentials" duration-ms="1150" started-at="2019-09-15T18:54:43Z" finished-at="2019-09-15T18:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogInUsingValidCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.att.md.TestCase.TestLogInPageObject@26653222]" name="closeBrowser" is-config="true" duration-ms="782" started-at="2019-09-15T18:54:44Z" finished-at="2019-09-15T18:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.att.md.TestCase.TestLogInPageObject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
